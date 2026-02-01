@@ -46,4 +46,4 @@ Since the scripts save outputs directly to the directory where they are executed
 ├── requirements.txt
 ├── [Generated PDF Figures]    # Created after running the notebooks
 └── [Generated GEXF Files]    # Created for Gephi visualization
-└── README.txt
+└── README.md
