@@ -22,6 +22,17 @@ This notebook focuses on the **weighted** network analysis:
 
 ---
 
+## System Specifications and Requirements
+
+* **Operating System**: This project was developed and tested on **Windows 11**.
+* **Python Version**: Python 3.13.7.
+* **Libraries**: All required packages are listed in `requirements.txt`.
+
+To install the dependencies, run:
+```bash
+pip install -r requirements.txt
+```
+
 ## File Structure
 
 Since the scripts save outputs directly to the directory where they are executed, the project folder should look like this:
