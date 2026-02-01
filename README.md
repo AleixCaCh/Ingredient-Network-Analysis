@@ -9,10 +9,11 @@ The goal of this study is to analyze the structure, centrality, and communities 
 ### 1. `ingredient_net_analysis.ipynb`
 This is the main script. It performs the core structural analysis on the **unweighted** network:
 * **Basic descriptors:** Calculation of density, clustering coefficient, and average path lengths.
-* **Degree distribution:** Fitting of Power Law, Log-Normal, and other distributions to the empirical data.
-* **Centrality:** Calculation of degree, betweenness, closeness, and eigenvector centralities.
+* **Degree distribution:** Fitting of Power Law, Log-Normal, and other distributions to the empirical data. It includes a specific goodness-of-fit comparison.
+* **Centrality:** Calculation of degree, betweenness, closeness, and eigenvector centralities. It also analyzes centrality scores and node rankings for the top 25 ingredients.
 * **Null Models:** Comparison of the real network against Erdős-Rényi, Barabási-Albert, and Configuration Model ensembles (10 realizations each).
 * **Community Detection:** Application of Louvain, Greedy Modularity and Label Propagation algorithms with the correspoding partition quality metrics.
+* **Visualization:** Provides a fast internal visualization of communities and an export for Gephi (.gexf) to allow for more professional network styling.
 
 ### 2. `weighted_computations.ipynb`
 This notebook focuses on the **weighted** network analysis:
