@@ -46,5 +46,5 @@ Since the scripts save outputs directly to the directory where they are executed
 ├── weighted_computations.ipynb
 ├── requirements.txt
 ├── [Generated PDF Figures]    # Created after running the notebooks
-└── [Generated GEXF Files]    # Created for Gephi visualization
+├── [Generated GEXF Files]    # Created for Gephi visualization
 └── README.md
